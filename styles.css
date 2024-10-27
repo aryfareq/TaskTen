@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(83, 83, 83);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: rgb(164, 164, 164);
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+header img{
+    max-width: 5em;
+}
+img{
+    max-width: 20em;
+}
+#img-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*Now for the main body*/
+
+.main-txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5em;
+    text-align: center;
+    height: 75vh;
+}
+.main-txt h1{
+    font-size: 3em;
+}
+.cursive-txt{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2em;
+}
+.main-txt p{
+    font-size: 1.2em;
+    padding: 1em;
+}
+img{
+    display: inline-block;
+}
